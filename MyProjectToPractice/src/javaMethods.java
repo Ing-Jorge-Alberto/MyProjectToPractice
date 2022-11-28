@@ -28,7 +28,8 @@ public class javaMethods {
         int suma=a+b;
         System.out.println("The sum of "+a+" + "+b+" are: "+suma);
     }
-    //Method Overloading
+    //Method Overloading, two or more methods could exist with the same name in the same clase
+    //ONLY IF the method parameters type are OR number of parameters are different
     //Same name method with different data types
     private static void suma (double a, double b){
         double suma=a+b;
